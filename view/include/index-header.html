@@ -1,0 +1,113 @@
+<style>
+.hearder-tab{
+	position:relative;
+	height:60px;
+	background:#db3e3e;
+	margin:0px 0px 10px 0px;
+/*	padding:0 90px;*/
+}
+.switch-tab{
+	display: inline-block;
+	width:30%;
+	margin-left:198px;
+}
+.switch-tab a{
+	display:inline-block;
+	color:#fff;
+	margin-top:2px;
+	width:35%;
+	line-height:56px;
+	text-align:center;
+}
+.switch-tab a:before{
+	content:'\5206\4eab\5708';
+}
+.switch-tab a:first-child:before{
+	content:'\6211\7684\4e3b\9875';
+}
+.switch-tab i:before{
+	content:'';
+	display:block;
+	background:#ffa6a6;
+	width:57px;
+	height:4px;
+}
+.logo:before{
+	content:'\006b\0069\006e\0064\006c\0065\0020\006e\006f\0074\0065';
+	font:25px bold a;
+	color:#fff;
+	border:2px solid #fff;
+	border-radius:10px;
+	position:absolute;
+	margin:0 25px;
+	padding:0 5px;
+	left:0px;
+	top:12.5px;
+}
+.header-user{
+	position:absolute;
+	right:0px;
+	top:7px;
+	margin:0 20px 0 10px;
+	height:44px;
+	width:44px;
+	background:url(../static/img/user.png) no-repeat center;
+	background-size:25px;
+}
+.search{
+	display:inline-block;
+	width:230px;
+	height:28px;
+	margin:16px 0 ;
+	vertical-align:top;
+	background: #fff;
+	border-radius:20px;
+}
+.search-type{
+	height:28px;
+	line-height:28px;
+	text-align:center;
+	border:none;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	outline:none;
+	background: url(../static/img/down.png) no-repeat scroll right center transparent;
+	background-size:8px;
+	margin-left:12px;
+	padding-right:14px;
+}
+.search-input{
+	overflow:hidden;
+	width:100px;
+	padding:0 6px;
+	border:none;
+	color:#b6b6b6;
+}
+.search-icon{
+	display:inline-block;
+	width:28px;
+	height:28px;
+	vertical-align:middle;
+	background: url(../static/img/search.png) no-repeat center;
+	background-size:16px;
+}
+</style>
+<div class="hearder-tab" style="width:734px">
+	<div class="switch-tab">
+		<a href="javascript:" class="tab_1_class"></a>
+		<a href="javascript:" class="tab_2_class"></a>
+		<i style="position:absolute;left:250px;bottom:0px"></i>
+	</div>
+	<div class="search">
+		<select class="search-type">
+			<option value="Mynote">我的笔记</option>
+			<option value="User"> 用户 </option>
+			<option value="HotShare">热门分享</option>
+		</slect>
+		<input class="search-input" type="text" value="输入关键词..." />
+		<div class="search-icon"></div>
+	</div>
+	<h1 class="logo"></h1>
+	<em class="header-user"></em>
+</div>

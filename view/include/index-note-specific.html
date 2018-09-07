@@ -1,0 +1,89 @@
+<style>
+.note-edit{
+	float:left;
+	width:54%;
+	height:100%;
+	padding:20px  0%;
+	/*margin:0 2%;*/
+	/*border:1px solid red;*/
+}
+.note-title{
+	text-align:center;
+	margin:10px auto;
+}
+.note-title-word{
+	display: inline-block;
+	font-weight:900;
+	font-size:20px;
+	color:#db3e3e;
+}
+.note-show .note-title-icon{
+	display: inline-block;
+	height:21px;
+	width:21px;
+	vertical-align:text-bottom;
+	background: url(../static/img/note.png) no-repeat center;
+	background-size:21px;
+}
+.note-show__specific{
+	overflow:auto;
+	padding:0 20px;
+	text-indent: 2em;
+}
+.divi:before{
+	content:'';
+	display: block;
+	width:90%;
+	height:1px;
+	background: #dbdbdb;
+	margin:10px auto;
+}
+.edit .note-title-icon{
+	display: inline-block;
+	height:21px;
+	width:21px;
+	vertical-align:text-bottom;
+	background: url(../static/img/edit.png) no-repeat center;
+	background-size:21px;
+}
+/*.edit__input{margin:0 auto;}*/
+.edit__input textarea{
+	overflow:auto;
+	padding:0 5px;
+	margin:0 4%;
+	text-indent: 2em;
+	width:90%;
+	height:200px;
+}
+	.save__button{
+		margin:0 auto;
+		text-align:center;
+		border-radius:10px;
+		width:50px;
+		background:#db3e3e;
+		color:#fff;
+	}
+</style>
+<div class="note-edit">
+	<div class="note-show">
+		<div class="note-title">
+			<div class="note-title-icon"></div>
+			<h3 class="note-title-word">我的摘录</h3>
+			
+		</div>
+		<div class="note-show__specific">
+			墙外的秋色似乎比墙内更浓。 郭嵩阳双手缩在衣袖中，慢慢地在前面走着。 李寻欢默默地跟在他身后。 路很长，窄而曲折，也不知尽头处在哪里。 秋风瑟瑟，路旁的草色已枯黄。 郭嵩阳走得虽慢，步子却很大。 李寻欢目光凝注着他的脚步，似已看得出神。 路上的土质很松，郭嵩阳每走一步，就留下个浅浅的脚印，每个脚步的深浅都完全一样。 每个脚步间的距离也完全一样。 他看来虽似在漫不经心地走着，其实却正在暗中催动着身体里的内力，他的手足四肢已完全协调。 是以他每一步踏出，都绝不会差错分毫。 等他的内力催动到极致，身体四肢的配合协调也到了巅峰时，他立刻就会停下来—— 那就是路的尽头。
+		</div>
+	</div>
+	<span class="divi"></span>
+	<div class="edit">
+		<div class="note-title">
+			<div class="note-title-icon"></div>
+			<h3 class="note-title-word">我的笔记</h3>
+		</div>
+		<div class="edit__input">
+			<textarea></textarea>
+		</div>
+	</div>
+	<div class="save__button">保存</div>
+</div>

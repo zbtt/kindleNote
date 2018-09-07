@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="static/css/reset.css">
+	<title><%=title%></title>
+</head>
+<body>
+	<div style="width:734px;height:100%">
+		<% include include/index-header.html%>
+		<div id="note_container">
+		<% include include/index-noteList.html%>
+		<% include include/index-note-specific.html%>
+		</div>
+	</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="../static/script/jquery-3.3.1.js"></script>
+<script src="../static/script/pages/index.js"></script>
+</html>

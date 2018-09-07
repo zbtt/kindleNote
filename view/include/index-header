@@ -1,0 +1,20 @@
+<style>
+.hearder-tab{
+	position:relative;
+	height:60px;
+	background:#db3e3e;
+	margin:10px 0px;
+}
+.switch-tab{
+	margin:0 auto;
+}
+</style>
+<div class="hearder-tab" style="width:1366px">
+	<div class="switch-tab">
+		<a href="javascript:" class="tab_1_class">我的主页</a>
+		<a href="javascript:" class="tab_1_class">分享圈</a>
+		<i></i>
+	</div>
+	<em class="logo">kindle note</em>
+	<em class="header-user"></em>
+</div>
